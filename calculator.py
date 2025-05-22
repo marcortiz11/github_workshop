@@ -4,5 +4,6 @@ def add(x: int, y: int) -> int:
 
 def div(x, y) -> float:
     """Divide two numbers"""
+    assert y != 0, "Cannot divide by zero"
     return x / y
 
