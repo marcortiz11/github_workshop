@@ -1,4 +1,5 @@
-def add(x, y):
+def add(x: int, y: int) -> int:
+    """Add two integer values"""
     return x + y
 
 def div(x, y) -> float:
@@ -7,4 +8,3 @@ def div(x, y) -> float:
         raise ValueError("Division by zero")
     else:
         return x / y
-
